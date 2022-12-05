@@ -1,0 +1,302 @@
+// ---------------------------  Articles Links ------------------------------------------ 
+//----English and Gujrati have different xpaths---Rest of Languages have same xpaths-----
+
+	/*English article Links */
+	@FindBy(xpath = "//div[contains(@class,'top_story_right')]//li/a")
+	private List<WebElement> engArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'top_story_right')]")
+	private WebElement engArtDiv;
+
+	/* Hindi article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]//li/a")
+	private List<WebElement> hindiArticleLnks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement hindiArtDiv;
+
+	/* Bengali article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]//li/a")
+	private List<WebElement> bengaliArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement bengaliArtDiv;
+
+	/* Marati article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]//li/a")
+	private List<WebElement> lokmatArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement lokmatArtDiv;
+
+	/*Gujarati Lead Story Link */
+	@FindBy(xpath = "//div[contains(@class,'top_news')]//li[contains(@class,'news')]//a")
+	private List<WebElement> gujaratiArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'top_news_right')]")
+	private WebElement gujaratiArtDiv;
+
+	/* Kannada article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> kannadaArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement kannadaArtDiv;
+
+	/* Tamil article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> tamilArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement tamilArtDiv;
+
+	/*Telugu Lead Story Link */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> teluguArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement teluguArtDiv;
+
+	/* Malayalam article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> malayalamArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement malayalamArtDiv;
+
+	/*Urdu Lead Story Link */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> urduArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement urduArtDiv;
+
+	/* Punjab article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> punjabArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement punjabArtDiv;
+
+	/* Assam article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> assamArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement assamArtDiv;
+
+	/* Odia article links */
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]/li/a")
+	private List<WebElement> odiaArticleLinks;
+	
+	@FindBy(xpath = "//div[contains(@class,'topnews')]//ul[contains(@class,'top-kharein')]")
+	private WebElement odiaArtDiv;
+	
+
+
+	// ---------------------------  Photo Galleries Links ------------------------------------------ 
+	
+	/*English Photo gallery Links */
+	@FindBy(xpath = "//div[contains(@class,'PhotoLeft')]//ul[contains(@class ,'photoGalleryList')]//h3//a")
+	private List<WebElement> engPhotoGalleryLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'PhotoLeft')]//ul[contains(@class ,'photoGalleryList')]")
+	private WebElement engPhotoDiv;
+
+   /*  Photogallery for Hindi language */
+	@FindBy(xpath = "//div[contains(@class,'pht-sld swiper')]//div//a")
+	private List<WebElement> hindiPhotogalleryListingLnk;
+
+        @FindBy(xpath = "//div[contains(@class,'pht-sld swiper')]//div")
+	private WebElement hindiPhotoDiv;
+        
+   /*  Photogallery for Bengali language */
+	@FindBy(xpath = "//div[contains(@class,'sports')]//ul//h5//a")
+	private List<WebElement> bengaliPhotogalleryListingLnk;
+       
+    @FindBy(xpath = "//div[contains(@class,'sports')]")
+	private WebElement bengaliPhotoDiv;
+
+	/*  Photogallery for Gujrati language */
+	@FindBy(xpath = "//div[contains(@class,'other_news')]//div//ul//a")
+	private List<WebElement> gujaratiPhotogalleryListingLnk;
+       
+    @FindBy(xpath = "//div[contains(@class,'other_news')]")
+	private WebElement gujaratiPhotoDiv;
+
+	/*  Photogallery for Kannada */
+	@FindBy(xpath = "//div[contains(@class,'entertainment ')]//ul/h5/a")
+	private List<WebElement>  kannadaPhotogalleryListingLnk;
+
+	/*  Photogallery for Tamil language */
+	@FindBy(xpath = "//div[contains(@class,'entertainment ')]//ul//h5/a")
+	private List<WebElement>  tamilPhotogalleryListingLnk;
+
+    @FindBy(xpath = "//div[contains(@class,'entertainment ')]")
+	private WebElement tamilPhotoDiv;
+
+	/*  Photogallery for Assam language */
+	@FindBy(xpath = "//div[contains(@class,'lifestyle')]//ul//h5//a")
+	private List<WebElement> assamPhotogalleryListingLnk;
+       
+    @FindBy(xpath = "//div[contains(@class,'lifestyle')]")
+	private WebElement assamPhotoDiv;
+
+	/* Photogallery for Marathi language*/
+	@FindBy(xpath = "//div[contains(@class,'entertainment')]//div/ul//h5/a")
+	private List<WebElement> lokmatPhotogalleryListingLnk;
+
+    @FindBy(xpath = "//div[contains(@class,'entertainment')]")
+	private WebElement lokmatPhotoDiv;
+
+	/* Photogallery for Punjab language*/
+	@FindBy(xpath = "//div[contains(@class,'entertainment')]//ul//h5/a")
+	private List<WebElement> punjabPhotogalleryListingLnk;
+
+	@FindBy(xpath = "//div[contains(@class,'entertainment')]")
+	private WebElement punjabPhotoDiv;
+
+	/* Photogallery for Kannada, Tamil, punjabi language*/
+	@FindBy(xpath = "//div[contains(@class,'entertainment')]//ul//h5/a")
+	private List<WebElement> otherLangPhotogalleryListingLnk;
+
+	@FindBy(xpath = "//div[contains(@class,'entertainment')]")
+	private WebElement otherLangPhotoDiv;
+
+	/* Photogallery for Malyalam language*/
+	@FindBy(xpath = "//div[contains(@class,'film')]//div")
+	private List<WebElement> malayalamPhotogalleryListingLnk;
+
+	@FindBy(xpath = "//div[contains(@class,'film')]")
+	private WebElement malayalamPhotoDiv;
+
+	/* Photogallery for Telugu language*/
+	@FindBy(xpath = "//div[contains(@class,'movies')]//figure/a")
+	private List<WebElement> teluguPhotogalleryListingLnk;
+
+	@FindBy(xpath = "//div[contains(@class,'movies')]")
+	private WebElement teluguPhotoDiv;
+
+	/* Photogallery for Urdu language*/
+	@FindBy(xpath = "//div[contains(@class,'pht-sld clearfix')]//figure/a")
+	private List<WebElement> urduPhotogalleryListingLnk;
+
+	@FindBy(xpath = "//div[contains(@class,'pht-sld clearfix')]")
+	private WebElement urduPhotoDiv;
+
+	/* Photogallery for Odia language*/
+	@FindBy(xpath = "//div[contains(@class,'pht-sld clearfix')]/ul//figure/a")
+	private List<WebElement> odiaPhotogalleryListingLnk;
+
+	@FindBy(xpath = "//div[contains(@class,'pht-sld clearfix')]/ul")
+	private WebElement odiaPhotoDiv;
+	
+
+	
+
+// ---------------------------  Cricket Next Links ------------------------------------------
+//------English,hindi,bengali,lokamat,gujurati having different xpath others are same                  
+
+	/* English and Hindi PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'cn-story-wrap')]/ul//a")
+	private List<WebElement> cricketNextLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'cn-story-wrap')]/ul")
+	private WebElement engCricketNextDiv;
+
+
+	/* Hindi Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'cn-story-wrap')]/ul//a")
+	private List<WebElement> hindiCricketLnks;
+
+	@FindBy(xpath = "//div[contains(@class,'cn-story-wrap')]/ul")
+	private WebElement hindiCricketNextDiv;
+
+
+	/* Bengali PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'ctgr-rgt fright')]//li/a")
+	private List<WebElement> bengaliSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'ctgr-rgt fright')]//ul")
+	private WebElement bengaliCricketNextDiv;
+
+
+	/* Lokmat(Marati) PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'left')]/ul//a")
+	private List<WebElement> lokmatSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'left')]/ul")
+	private WebElement lokmatCricketNextDiv;
+
+	/*Gujarati Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'top_story_right')]//li/a")
+	private List<WebElement> gujaratiSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'top_story_right')]")
+	private WebElement gujaratiCricketNextDiv;
+
+
+	/* Kannada PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> kannadaSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]")
+	private WebElement kannadaCricketNextDiv;
+
+
+	/* Tamil PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> tamilSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]")
+	private WebElement tamilCricketNextDiv;
+	
+	/* Malayalam PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> malayalamSportstLinks;
+
+       
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//ul")
+	private WebElement malayalamCricketNextDiv;
+
+	/* Telugu PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> teluguSportstLinks;
+
+        
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//ul")
+	private WebElement teluguCricketNextDiv;
+
+	/* Punjabi PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> punjabSportstLinks;
+
+     
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//ul")
+	private WebElement punjabCricketNextdiv;
+
+
+	/* Urdu PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> urduSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//ul")
+	private WebElement urduCricketNextDiv;
+
+
+	/* Assam PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> assamSportstLinks;
+
+        
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//ul")
+	private WebElement assamCricketNextDiv;
+
+	/* Odia PSI Sports Links*/
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//a")
+	private List<WebElement> odiaSportstLinks;
+
+	@FindBy(xpath = "//div[contains(@class,'section-blog-left-img-list')]//ul")
+	private WebElement odiaCricketNextDiv;
+
+	

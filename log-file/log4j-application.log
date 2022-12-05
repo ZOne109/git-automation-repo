@@ -1,0 +1,50 @@
+2022-02-15 12:07:35,096  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:35,099  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:35,100  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:35,101  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:35,191  INFO [main] HindiAMPValidations:12 - Launching Chrome Browser in Desktop view
+ 2022-02-15 12:07:35,548  INFO [main] HindiAMPValidations:12 - Launched Chrome Browser
+ 2022-02-15 12:07:37,233  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,234  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,235  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,236  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,262  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,264  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,266  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,267  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,315  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,317  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,321  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,322  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,328  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,331  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,332  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,334  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,341  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,343  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,345  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,346  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,351  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,352  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,354  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,357  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,362  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,364  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,365  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,367  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,372  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,374  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,375  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,377  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,381  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,383  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,384  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,387  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,391  INFO [main] FileUtility:12 - Read Data From Property File desktop
+ 2022-02-15 12:07:37,393  INFO [main] FileUtility:12 - Read Data From Property File mobile
+ 2022-02-15 12:07:37,395  INFO [main] FileUtility:12 - Read Data From Property File amp 
+ 2022-02-15 12:07:37,397  INFO [main] FileUtility:12 - Read Data From Property File chrome
+ 2022-02-15 12:07:37,429  INFO [main] FileUtility:12 - Read Data From Property File https://hindi.news18.com/
+ 2022-02-15 12:07:39,743  INFO [main] HindiAMPValidations:12 - Navigated to https://hindi.news18.com/
+ 2022-02-15 12:07:39,764  INFO [main] WebDriverActions:12 - Waiting for Page Load
+ 
